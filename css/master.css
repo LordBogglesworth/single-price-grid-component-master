@@ -17,6 +17,7 @@
 }
 
 h1,
+h2,
 h3,
 p,
 span {
@@ -66,6 +67,7 @@ body {
 
 .join-paragraph {
   color: var(--clr-neutral-grayish-blue);
+  line-height: 3ch;
 }
 
 /* Bottom Collective Divs */
@@ -96,11 +98,12 @@ body {
 .rate-description {
   font-weight: 400;
   color: hsl(199, 69%, 90%);
+  padding-bottom: 2rem;
 }
 
 .sign-up-btn {
   background: var(--clr-primary-yellow);
-  padding: 1em 6.5em;
+  padding: 1em 9em;
   border: 0;
   border-radius: 0.25em;
   color: var(--clr-primary-white);
