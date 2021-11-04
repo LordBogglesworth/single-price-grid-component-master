@@ -75,8 +75,6 @@ body {
 }
 
 /* Bottom Collective Divs */
-.bottom-section {
-}
 
 .bottom-header {
   color: var(--clr-primary-white);
@@ -124,4 +122,20 @@ body {
   list-style-type: none;
   color: hsl(160, 29%, 90%);
   line-height: 2.5ch;
+}
+
+@media (min-width: 650px) {
+  .bottom-section {
+    display: flex;
+  }
+  .bottom-sub-div {
+    width: 100%;
+  }
+  .top-section,
+  .why-us {
+    padding-right: 5em;
+  }
+  .top-section {
+    min-height: 100%;
+  }
 }
